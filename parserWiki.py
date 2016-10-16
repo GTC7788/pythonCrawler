@@ -33,7 +33,7 @@ class HtmlParser(object):
         res_data['summary'] = summary_node.get_text()
 
         return res_data
-
+        # make some commend
 
 
 

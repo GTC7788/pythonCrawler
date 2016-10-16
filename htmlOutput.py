@@ -3,6 +3,8 @@ class HtmlOutputer(object):
     def __init__(self):
         self.datas = []
 
+    def nothing(self):
+        print 'hello'
 
     def collect_data(self, data):
         if data is None:
