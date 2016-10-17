@@ -1,5 +1,7 @@
 class HtmlOutputer(object):
 
+# Output the crawler's result in html format.
+
     def __init__(self):
         self.datas = []
 

@@ -1,5 +1,6 @@
 import urllib2
-#hello
+
+# Use urllib2.urlopen to download the content of a html page.
 
 class HtmlDownloader(object):
 

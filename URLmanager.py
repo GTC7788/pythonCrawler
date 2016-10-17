@@ -1,8 +1,11 @@
 class UrlManager(object):
+
+# Simple urlmanager, 2 sets as container. One for new urls (waiting for crawl)
+# One for old urls (has been crawled and no need to crawl again)
+
     def __init__(self):
         self.new_urls = set()
         self.old_urls = set()
-
 
 
     def add_new_url(self, url):

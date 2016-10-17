@@ -18,7 +18,7 @@ class SpiderMain(object):
     def craw(self, root_url):
         count = 1
         self.urls.add_new_url(root_url)
-        while self.urls.has_new_url():
+        while self.urls.has_new_url():  # loop until there is no URLs in the urlmanager or reach the limit condition.
             try:
                 new_url = self.urls.get_new_url()
                 print 'craw %d : %s' % (count,new_url)
